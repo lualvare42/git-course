@@ -1,0 +1,26 @@
+git init: to initialize a git repository (locally)
+
+git status: check whether a file or directory is in the stage or not.
+git add: adds files or directories to the stage
+git commit: Take snapshot of the current status of the added files.
+
+git checkout: many uses but basically we can move to and from previous 
+states (commits)
+
+git log: get info about each commit.
+	git history (user made): short version for git log.
+git diff: to check differences in files or directories that are being tracked. Can be used to compare branches.
+
+git reflog: shows even resetted commits.
+git reset: to erase commits from a branch.
+
+git switch: to switch between branches.
+git merge: To merge two branches.
+
+git stash: it is used to make a local commit, that will not be reflected on the tree. 
+	Use cases:
+	- When working with incomplete code and having to change branches.
+git stash pop: recover whatever files that are in stash.
+git stash drop: eliminate stash.
+
+git branch -d <name of the branch>: Eliminate a branch
