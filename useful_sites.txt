@@ -1,1 +1,2 @@
 Ohmyz.sh (web para modificar la terminal)
+training.github.com/download/en-EN/github-git-cheat-sheet.pdf
