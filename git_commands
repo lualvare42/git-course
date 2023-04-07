@@ -24,3 +24,10 @@ git stash pop: recover whatever files that are in stash.
 git stash drop: eliminate stash.
 
 git branch -d <name of the branch>: Eliminate a branch
+
+git remote add origin https://github.com/lualvare42/<repository name>:
+to vinculate local git with github.
+git push -u origin main: synchronizes local branch with github branch.
+
+git fetch: shows changes between local and github without adding them.
+git pull: implement changes between local and github
