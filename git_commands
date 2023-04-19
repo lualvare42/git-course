@@ -3,6 +3,7 @@ git init: to initialize a git repository (locally)
 git status: check whether a file or directory is in the stage or not.
 git add: adds files or directories to the stage
 git commit: Take snapshot of the current status of the added files.
+use option --amend to modify commit.
 
 git checkout: many uses but basically we can move to and from previous 
 states (commits)
